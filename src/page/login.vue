@@ -19,6 +19,7 @@
 </template>
 
 <script>
+  import {login, getAdminInfo} from '@/api/getData'
   export default {
     data() {
       return {
